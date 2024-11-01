@@ -11,6 +11,7 @@ Code, Compile, Run and Debug online from anywhere in world.
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctime>
+#include <algorithm>
 
 int main(){
     // declaring random seed and array
@@ -34,8 +35,14 @@ int main(){
             max = arr[i];
         }
     }
+    
     // then, the max value is:
     std::cout<<"O valor max é: "<<max;
+    
+    // alternatively, we can get the max value by:
+    // int maxNoLoop = *std::max_element(arr.begin(), arr.end());
+    // std::cout << "O valor max é:  " << maxElement << std::endl;
+    
     
     return 0;
 }
