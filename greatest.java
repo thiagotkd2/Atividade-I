@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Random;
-public class ordenacao {
+public class greatest {
 	public static void main(String[] args) {
 		// array declaration
 		int[] arr = new int[5];
